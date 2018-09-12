@@ -1,0 +1,19 @@
+version '1.0'
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+sourceCompatibility = 1.8
+mainClassName = 'ServerCore'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+
+    compile group: 'de.micromata.jak', name: 'JavaAPIforKml', version: '2.2.1'
+    compile 'com.google.code.gson:gson:2.8.2'
+    compile files('libs/common.jar')
+}

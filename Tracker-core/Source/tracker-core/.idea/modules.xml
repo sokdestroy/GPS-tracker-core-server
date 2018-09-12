@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tracker-core.iml" filepath="$PROJECT_DIR$/.idea/modules/tracker-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tracker-core_main.iml" filepath="$PROJECT_DIR$/.idea/modules/tracker-core_main.iml" group="tracker-core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tracker-core_test.iml" filepath="$PROJECT_DIR$/.idea/modules/tracker-core_test.iml" group="tracker-core" />
+    </modules>
+  </component>
+</project>
